@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="Style.css" />
+    <title>Retail-ISM (Inventory Shelf Management)</title>
+    <script type="text/javascript" src="Hackathon.js">
+        
+    </script>
+</head>
+<body>
+<h1 align="center"><i>POS Terminal</i></h1>
+    <br /><br />
+          <div>
+              <label>Product ID</label>
+              <textarea id="ProductEntry"></textarea>
+              <label>Quantity</label>
+              <textarea id="QuantityEntry"></textarea>
+          </div>
+<br /><br />
+    <div class="Buttons">
+        <button id="Scan" onclick="myfunction()">Add</button>
+    </div>
+    <br /><br />
+    <div class="PayButton">
+        <button name="Pay" onclick="clearfunction()">Pay</button>
+    </div>
+    <br /><br />
+    <div class="SupervisorButton">
+        <button name="Supervisor" onclick="Supervisor()">Supervisor</button>
+    </div>
+    <br /> <hr /><br /><br />
+   <div class="Cart">
+    <table id="table" class="table" align="center">
+        <tr id=tablerow>
+            <th>Name</th>
+            <th>Quantity</th>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
